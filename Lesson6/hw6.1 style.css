@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.one {
+    width: 100%;
+    height: 33.334vh;
+    background-color: cadetblue;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+}
+
+.bbox {
+    width: 100%;
+    height: 66.66vh;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.two {
+
+    width: 100%;
+    height: 33.334vh;
+    background-color: #91c6fa;
+
+}
+
+.three {
+
+    width: 33.334%;
+    height: 33.334vh;
+    background-color: #817B7B;
+}
+
+.four {
+    width: 33.334%;
+    height: 33.334vh;
+    background-color: aquamarine;
+}
+
+.five {
+    width: 33.334%;
+    height: 33.334vh;
+    background-color: blueviolet;
+}
+
+.six {
+    width: 25%;
+    height: 66.66vh;
+    background-color: brown;
+}
+
+.container {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #yellow {
+            width: 100vw;
+            height: 100vh;
+            background-color: blue;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: black;
+            padding: 10vh;
+            font-size: 1.5vw;
+        }
+
+        #blue {
+            width: 100vw;
+            height: 100vh;
+            background-color: yellow;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: black;
+            padding: 10vh;
+            font-size: 1.5vw;
+        }
+
+        #green {
+            width: 100vw;
+            height: 100vh;
+            background-color: green;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: black;
+            padding: 10vh;
+            font-size: 1.5vw;
+        }
+        a{
+            font-size: 8vh;
+            color: black;
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<section id="yellow"><a href="#blue">&#8595</a>
+    <p><b>Section title</b></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, alias amet, doloremque
+    dolores id impedit iste iure labore laboriosam nam officia quas sed sequi similique sunt temporibus tenetur ut
+    voluptatum.<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, beatae ea harum nisi nulla pariatur quae
+        suscipit voluptas. Dolorum fuga magni mollitia nam, nulla numquam omnis quia quis temporibus velit.</p>
+</section>
+<section id="blue"><a href="#yellow">&#8593</a>
+    <p><b>Section title</b></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, atque commodi
+    debitis deserunt ducimus, eius eligendi eos eum eveniet hic nobis non optio porro provident quos ut voluptates
+    voluptatibus.<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aspernatur autem beatae
+        consectetur consequatur consequuntur corporis distinctio dolor impedit, magni nam necessitatibus nulla officiis
+        quae recusandae sapiente, sunt velit.</p><a href="#green">&#8595</a></section>
+<section id="green"><a href="#yellow" style="color: black">&#8593</a>
+    <p><b>Section title</b></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda beatae
+    cupiditate delectus deleniti dignissimos, dolor dolorem doloremque expedita ipsa, ipsum laborum magnam molestias
+    nemo qui tenetur vitae voluptas voluptatibus!<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam
+        aut consequatur ea id officiis quam quia quibusdam ratione repellat! Consequuntur ducimus facere molestiae natus
+        non obcaecati odit pariatur sapiente.</p></section>
+</body>
+</html>

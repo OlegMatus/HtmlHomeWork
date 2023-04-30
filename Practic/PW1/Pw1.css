@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-image: url("image 4.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'KoHo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+}
+
+
+.box{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#one{
+    background-color: transparent;
+
+}
+#two{
+    background-color: rgb(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.text{
+    width: 949px;
+    height: 188px;
+    font-size: 35px;
+    line-height: 45.5px;
+    padding-bottom: 8vh;
+}
+#three{
+    background-color: rgb(255,255,255,0.8);
+}
+
+.forest {
+    width: 529px;
+    height: 393px;
+}
+
+.field {
+    width: 529px;
+    height: 393px;
+    background: #FAF9F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.field h3 {
+    font-size: 45px;
+    line-height: 58px;
+   text-align: center;
+    margin: 0;
+}
+
+.field > p {
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.button{
+    width: 409px;
+    height: 76px;
+    background: rgba(217, 217, 217, 0.6);
+    border: 1px solid rgba(156, 152, 152, 0.1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'KoHo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

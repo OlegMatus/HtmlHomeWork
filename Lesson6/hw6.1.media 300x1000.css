@@ -1,0 +1,19 @@
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+    .one {
+        height: 20vh;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .bbox {
+        width: 100vw;
+    }
+
+
+    .six {
+        width: 100vw;
+        height: 20vh;
+    }
+}

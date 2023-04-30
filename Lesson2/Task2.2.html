@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2.2</title>
+    <style>
+        .main {
+            height: 1024px;
+            width: 100%;
+            background-color: darkkhaki;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: gray;
+            transition: 4s;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .yellow:hover {
+            background-color: yellow;
+            transition: linear;
+        }
+
+        .blue:hover {
+            background-color: blue;
+            transition: ease-in-out;
+        }
+
+        .white:hover {
+            background-color: white;
+            transition: ease-out;
+        }
+
+        .green:hover {
+            background-color: green;
+            transition: ease-in;
+        }
+
+        .red:hover {
+            background-color: red;
+            transition: ease;
+        }
+
+        .black:hover {
+            background-color: black;
+            transition: ease-out;
+        }
+
+        .box:hover {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="box yellow"></div>
+    <div class="box blue"></div>
+    <div class="box white"></div>
+    <div class="box green"></div>
+    <div class="box red"></div>
+    <div class="box black"></div>
+</div>
+</body>
+</html>

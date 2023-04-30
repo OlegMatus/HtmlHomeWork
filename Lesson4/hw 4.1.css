@@ -1,0 +1,62 @@
+body{
+    font-family: "Arial";
+}
+form{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1em;
+}
+.img{
+    width: 30vw;
+    height: 23vh;
+    margin: 30px 0;
+}
+.facebook{
+    width: 2vw;
+    height: 5vh;
+}
+.field{
+    width: 40vw;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 1px;
+    padding-left: 10px;
+    font-size: 25px;
+
+ }
+#blue{
+    border: none;
+    border-radius: 15px;
+    background-color: #91c6fa;
+    color: white;
+    margin-top: 15px;
+    font-size: 25px;
+}
+h3{
+    font-size: 25px;
+    color: gray;
+}
+.active-link{
+    font-size: 25px;
+    color: darkblue;
+    text-decoration: none;
+}
+div{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    width: 100vw;
+    height: 20vh;
+    border: 5px;
+}
+#sign{
+    color: dodgerblue;
+}

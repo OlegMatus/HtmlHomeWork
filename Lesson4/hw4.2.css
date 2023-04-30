@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: darkslategray;
+}
+form{
+    width: 60vw;
+    height: 60vh;
+    background-color: white;
+    margin: 20vh 20vw;
+    border-radius: 10px;
+}
+.main{
+    width: 60vw;
+    height: 20vh;
+    background-color: #F0F8FF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.field{
+    width: 25vw;
+    height: 5vh;
+    margin: 3vh auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom {font-size: 1em;
+    margin-left: 17vw;
+}
+#enter{
+    width: 7vw;
+    height: 4vh;
+    border-radius: 8px;
+    margin-left: 8vw;
+}

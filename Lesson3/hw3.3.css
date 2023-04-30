@@ -1,0 +1,14 @@
+header{
+    width: 1512px;
+    height: 196.4px;
+    background: rgba(217, 217, 217, 0.1);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+div{
+    height: 51px;
+    width: 90px;
+    left: 756px;
+    top: 74px;
+}
